@@ -1,0 +1,2 @@
+docker build -t task1_image .
+docker run -p 5252:5252 task1_image

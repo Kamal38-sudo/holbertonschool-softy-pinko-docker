@@ -1,0 +1,3 @@
+cd task3/front-end
+docker build -t task3-frontend .
+docker run -p 9000:9000 task3-frontend
